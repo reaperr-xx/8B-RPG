@@ -6,7 +6,7 @@ public class groundChecker : MonoBehaviour
 {
     public bool isGround = true;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
 
 
@@ -15,7 +15,7 @@ public class groundChecker : MonoBehaviour
 
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+     public void OnTriggerExit2D(Collider2D other)
     {
 
 

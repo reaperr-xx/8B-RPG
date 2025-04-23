@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
 
     private Rigidbody2D rb;
-    [SerializeField] private groundChecker groundcheck;
+    [SerializeField] public  groundChecker groundcheck;
     public float jump;
 
     void Start()
